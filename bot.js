@@ -22,9 +22,8 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
   
- client.user.setActivity(`ares BOT Beta yakında sizlerle...`, { type:'WATCHING' })
-  
-  console.log("CodeWork Akıyor!!")
+ client.user.setActivity(`${client.user.username} yakında sizlerle...`, { type:'WATCHING' })
+
 });
 
 const log = message => {
